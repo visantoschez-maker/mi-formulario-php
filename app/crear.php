@@ -19,13 +19,14 @@
         
     $nombre = $_POST["nombre"];
     $password = $_POST["password"];
+    $edad = $_POST["edad"];
     $educacion = $_POST["educacion"];
     $idiomas = $_POST["idiomas"];
     $nacionalidad = $_POST["nacionalidad"];
     $email = $_POST["email"];
     $sitioweb = $_POST["sitioweb"];
 
-    echo "Se creará el usuario $nombre $password $educacion $nacionalidad $email $sitioweb" . "<br>";
+    echo "Se creará el usuario $nombre $password $edad $educacion $nacionalidad $email $sitioweb" . "<br>";
 
     echo "Idiomas: ";
     echo "<ul>";
