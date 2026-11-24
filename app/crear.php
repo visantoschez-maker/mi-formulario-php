@@ -26,8 +26,15 @@
     $email = $_POST["email"];
     $sitioweb = $_POST["sitioweb"];
 
-    echo "Se creará el usuario $nombre $password $edad $educacion $nacionalidad $email $sitioweb" . "<br>";
+    function sumar ($edad){
+	    $result = $edad + 1;
+	    return $result;
+    }
 
+    echo "Se creará el usuario $nombre $password $educacion $nacionalidad $email $sitioweb" . "<br>";
+
+    echo "el año que viene tendras" . sumar ($edad). "<br>";
+    
     echo "Idiomas: ";
     echo "<ul>";
     foreach ($idiomas as $idioma) {
