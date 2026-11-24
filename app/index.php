@@ -17,6 +17,8 @@
         <input type="text" name="nombre" maxlength="50"><br>
         Contraseña:
         <input type="password" name="password"><br>
+        Edad:
+        <input type="edad" name="edad"><br>
         Educacion:
         <select name="educacion">
             <option value="sin-estudios">Sin estudios</option>
